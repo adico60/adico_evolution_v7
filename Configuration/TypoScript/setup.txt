@@ -107,8 +107,7 @@ config {
 }
 
 page {
-    10 {
-        FLUIDTEMPLATE
+    10 = FLUIDTEMPLATE
         10 {
         templateName = TEXT
         templateName.stdWrap.cObject = CASE
