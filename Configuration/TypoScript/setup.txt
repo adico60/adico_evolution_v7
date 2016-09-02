@@ -108,12 +108,13 @@ config {
 
 page {
     10 {
-        file {
-            stdWrap {
-                cObject = CASE
-                cObject {
-                    key.data = levelfield:-1, backend_layout_next_level, slide
-                    key.override.field = backend_layout
+        FLUIDTEMPLATE
+        10 {
+        templateName = TEXT
+        templateName.stdWrap.cObject = CASE
+        templateName.stdWrap.cObject {
+            key.data = levelfield:-1, backend_layout_next_level, slide
+            key.override.field = backend_layout
 
                     pagets__accueil = TEXT
                     pagets__accueil.value = Accueil
@@ -136,7 +137,7 @@ page {
                     default.insertData = 1
                  }
             }
-        }
+        
         templateRootPaths {
             0 = EXT:adico_evolution_v7/Resources/Private/Templates/Page/
             1 = {$page.fluidtemplate.templateRootPath}
