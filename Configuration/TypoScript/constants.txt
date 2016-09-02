@@ -1,6 +1,6 @@
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:adico_evolution_v7/Configuration/TypoScript/Bootstrap/constants.txt">
 
-<INCLUDE_TYPOSCRIPT: source="FILE: fileadmin/formhandler/contact-form/ts/ts_constants.txt">
+
 ############
 ### PAGE ###
 ############
