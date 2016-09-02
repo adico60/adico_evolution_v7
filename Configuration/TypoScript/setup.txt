@@ -1,4 +1,3 @@
-
 config {
     extTarget = _blank
 
