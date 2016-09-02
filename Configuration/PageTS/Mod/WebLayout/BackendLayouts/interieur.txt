@@ -5,7 +5,7 @@ mod {
     web_layout {
         BackendLayouts {
             interieur {
-                title = LLL:EXT:adico_evolution/Resources/Private/Language/Backend.xlf:backend_layout.interieur
+                title = LLL:EXT:adico_evolution_v7/Resources/Private/Language/Backend.xlf:backend_layout.interieur
                 config {
                     backend_layout {
                         colCount = 8
@@ -31,7 +31,7 @@ mod {
                         }
                     }
                 }
-                icon = EXT:adico_evolution/Resources/Public/Images/BackendLayouts/evo1_interieur.gif
+                icon = EXT:adico_evolution_v7/Resources/Public/Images/BackendLayouts/evo1_interieur.gif
             }
         }
     }

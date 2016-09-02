@@ -138,21 +138,21 @@ page {
             }
         }
         templateRootPaths {
-            0 = EXT:adico_evolution/Resources/Private/Templates/Page/
+            0 = EXT:adico_evolution_v7/Resources/Private/Templates/Page/
             1 = {$page.fluidtemplate.templateRootPath}
         }
         partialRootPaths {
-            0 = EXT:adico_evolution/Resources/Private/Partials/Page/
+            0 = EXT:adico_evolution_v7/Resources/Private/Partials/Page/
             1 = {$page.fluidtemplate.partialRootPath}
         }
         layoutRootPaths {
-            0 = EXT:adico_evolution/Resources/Private/Layouts/Page/
+            0 = EXT:adico_evolution_v7/Resources/Private/Layouts/Page/
             1 = {$page.fluidtemplate.layoutRootPath}
         }
     }
 
     includeCSS {
-        theme = EXT:adico_evolution/Resources/Private/Less/Theme/theme.less
+        theme = EXT:adico_evolution_v7/Resources/Private/Less/Theme/theme.less
     }
 
     jsFooterInline {

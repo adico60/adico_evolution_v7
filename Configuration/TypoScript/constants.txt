@@ -1,4 +1,4 @@
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:adico_evolution/Configuration/TypoScript/Bootstrap/constants.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:adico_evolution_v7/Configuration/TypoScript/Bootstrap/constants.txt">
 
 <INCLUDE_TYPOSCRIPT: source="FILE: fileadmin/formhandler/contact-form/ts/ts_constants.txt">
 ############
@@ -15,9 +15,9 @@ page {
         }
     }
     fluidtemplate{
-        templateRootPath = EXT:adico_evolution/Resources/Private/Templates/Page/
-        layoutRootPath = EXT:adico_evolution/Resources/Private/Layouts/Page/
-        partialRootPath = EXT:adico_evolution/Resources/Private/Partials/Page/
+        templateRootPath = EXT:adico_evolution_v7/Resources/Private/Templates/Page/
+        layoutRootPath = EXT:adico_evolution_v7/Resources/Private/Layouts/Page/
+        partialRootPath = EXT:adico_evolution_v7/Resources/Private/Partials/Page/
     }
 }
 
@@ -32,10 +32,10 @@ config {
 plugin.bootstrap_package_contentelements {
   view {
     # cat=bootstrap package: advanced/140/layoutRootPath; type=string; label=Layout Root Path: Path to layouts
-    layoutRootPath = EXT:adico_evolution/Resources/Private/Layouts/ContentElements/
+    layoutRootPath = EXT:adico_evolution_v7/Resources/Private/Layouts/ContentElements/
     # cat=bootstrap package: advanced/140/partialRootPath; type=string; label=Partial Root Path: Path to partials
-    partialRootPath = EXT:adico_evolution/Resources/Private/Partials/ContentElements/
+    partialRootPath = EXT:adico_evolution_v7/Resources/Private/Partials/ContentElements/
     # cat=bootstrap package: advanced/140/templateRootPath; type=string; label=Template Root Path: Path to templates
-    templateRootPath = EXT:adico_evolution/Resources/Private/Templates/ContentElements/
+    templateRootPath = EXT:adico_evolution_v7/Resources/Private/Templates/ContentElements/
   }
 }

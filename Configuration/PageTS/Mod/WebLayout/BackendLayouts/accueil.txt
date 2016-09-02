@@ -5,7 +5,7 @@ mod {
     web_layout {
         BackendLayouts {
             accueil {
-                title = LLL:EXT:adico_evolution/Resources/Private/Language/Backend.xlf:backend_layout.accueil
+                title = LLL:EXT:adico_evolution_v7/Resources/Private/Language/Backend.xlf:backend_layout.accueil
                 config {
                     backend_layout {
                         colCount = 8
@@ -29,17 +29,17 @@ mod {
                             2 {
                                 columns {
                                     1 {
-                                        name = LLL:EXT:adico_evolution/Resources/Private/Language/Backend.xlf:backend_layout.column.gauche
+                                        name = LLL:EXT:adico_evolution_v7/Resources/Private/Language/Backend.xlf:backend_layout.column.gauche
                                         colPos = 40
                                         colspan = 2
                                     }
                                     2 {
-                                        name = LLL:EXT:adico_evolution/Resources/Private/Language/Backend.xlf:backend_layout.column.milieu
+                                        name = LLL:EXT:adico_evolution_v7/Resources/Private/Language/Backend.xlf:backend_layout.column.milieu
                                         colPos = 41
                                         colspan = 2
                                     }
                                     3 {
-                                        name = LLL:EXT:adico_evolution/Resources/Private/Language/Backend.xlf:backend_layout.column.droite
+                                        name = LLL:EXT:adico_evolution_v7/Resources/Private/Language/Backend.xlf:backend_layout.column.droite
                                         colPos = 42
                                         colspan = 2
                                     }
@@ -48,7 +48,7 @@ mod {
                         }
                     }
                 }
-                icon = EXT:adico_evolution/Resources/Public/Images/BackendLayouts/evo1_accueil.gif
+                icon = EXT:adico_evolution_v7/Resources/Public/Images/BackendLayouts/evo1_accueil.gif
             }
         }
     }

@@ -5,7 +5,7 @@ mod {
     web_layout {
         BackendLayouts {
             accueil2col {
-                title = LLL:EXT:adico_evolution/Resources/Private/Language/Backend.xlf:backend_layout.accueil2col
+                title = LLL:EXT:adico_evolution_v7/Resources/Private/Language/Backend.xlf:backend_layout.accueil2col
                 config {
                     backend_layout {
                         colCount = 3
@@ -28,11 +28,11 @@ mod {
                             2 {
                                 columns {
                                     1 {
-                                        name = LLL:EXT:adico_evolution/Resources/Private/Language/Backend.xlf:backend_layout.column.gauche
+                                        name = LLL:EXT:adico_evolution_v7/Resources/Private/Language/Backend.xlf:backend_layout.column.gauche
                                         colPos = 50
                                     }
                                     2 {
-                                        name = LLL:EXT:adico_evolution/Resources/Private/Language/Backend.xlf:backend_layout.column.centrale
+                                        name = LLL:EXT:adico_evolution_v7/Resources/Private/Language/Backend.xlf:backend_layout.column.centrale
                                         colPos = 51
                                     }
                                 }
@@ -40,7 +40,7 @@ mod {
                         }
                     }
                 }
-                icon = EXT:adico_evolution/Resources/Public/Images/BackendLayouts/evo1_accueil2.gif
+                icon = EXT:adico_evolution_v7/Resources/Public/Images/BackendLayouts/evo1_accueil2.gif
             }
         }
     }
