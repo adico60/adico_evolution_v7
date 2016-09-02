@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2013-09-19T09:11:39Z"
+		  product-name="adico_evolution">
+		<header/>
+		<body>
+
+			<trans-unit id="theme_name">
+				<source>Evolution 1</source>
+			</trans-unit>
+
+			<trans-unit id="backend_layout.accueil">
+				<source>Accueil Evolution 1</source>
+			</trans-unit>
+			
+			<trans-unit id="backend_layout.accueil2col">
+				<source>Accueil2 Evolution 1</source>
+			</trans-unit>
+
+			<trans-unit id="backend_layout.interieur">
+				<source>Interieur Evolution 1</source>
+			</trans-unit>
+			
+			<trans-unit id="backend_layout.clean">
+				<source>Page large  Evolution 1</source>
+			</trans-unit>
+
+			<trans-unit id="backend_layout.column.gauche">
+				<source>Colonne de gauche Evolution 1</source>
+			</trans-unit>
+
+			<trans-unit id="backend_layout.column.milieu">
+				<source>Colonne du milieu Evolution 1</source>
+			</trans-unit>
+			
+			<trans-unit id="backend_layout.column.centrale">
+				<source>Colonne Centrale Evolution 1</source>
+			</trans-unit>
+
+			<trans-unit id="backend_layout.column.droite">
+				<source>Colonne de droite Evolution 1</source>
+			</trans-unit>
+
+		</body>
+	</file>
+</xliff>
